@@ -1,0 +1,35 @@
+<library file="*.cc" name="RecoBTagPerformanceMeasurementsPlugins">
+  <use name="FWCore/Framework"/>
+  <use name="FWCore/Utilities"/>
+  <use name="FWCore/PluginManager"/>
+  <use name="FWCore/ParameterSet"/>
+  <use name="FWCore/ServiceRegistry"/>
+  <use name="HLTrigger/HLTcore"/>
+  <use name="DataFormats/Common"/>
+  <use name="RecoBTag/BTagTools"/>
+  <use name="DataFormats/TrackReco"/>
+  <use name="DataFormats/JetReco"/>
+  <use name="DataFormats/MuonReco"/>
+  <use name="RecoEgamma/EgammaTools"/>
+  <use name="DataFormats/EgammaCandidates"/>
+  <use name="JetMETCorrections/Objects"/>
+  <use name="RecoMuon/TrackingTools"/>
+  <use name="TrackingTools/IPTools"/>
+  <use name="TrackingTools/Records"/>
+  <use name="TrackingTools/TransientTrack"/>
+  <use name="SimTracker/TrackAssociation"/>
+  <use name="SimTracker/TrackHistory"/>
+  <use name="SimDataFormats/Track"/>
+  <use name="SimGeneral/HepPDTRecord"/>
+  <use name="SimTracker/Records"/>
+  <use name="DataFormats/Math"/>
+  <use name="PhysicsTools/UtilAlgos"/>
+  <use name="CommonTools/UtilAlgos"/>
+  <use name="CondFormats/JetMETObjects"/>
+  <use name="RecoBTag/PerformanceMeasurements"/>
+  <use name="DataFormats/PatCandidates"/>
+  <use name="fastjet"/>
+  <use name="fastjet-contrib"/>
+  <flags EDM_PLUGIN="1"/>
+  #<flags CXXFLAGS="-O0 -g -fno-inline"/>
+</library>

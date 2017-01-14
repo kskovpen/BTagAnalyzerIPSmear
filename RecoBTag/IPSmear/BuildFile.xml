@@ -1,0 +1,16 @@
+<use   name="CondFormats/DataRecord"/>
+<use   name="FWCore/Framework"/>
+<use   name="FWCore/MessageLogger"/>
+<use   name="FWCore/ParameterSet"/>
+<use   name="FWCore/Utilities"/>
+<use   name="boost"/>
+<use   name="clhep"/>
+<use   name="root"/>
+<use   name="boost"/>
+
+<flags LCG_DICT_HEADER="classes_objects.h"/>
+<flags LCG_DICT_XML="classes_def_objects.xml"/>
+
+<export>
+  <lib   name="1"/>
+</export>
